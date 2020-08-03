@@ -1,5 +1,6 @@
 Кнопка с меню для виджета QToolBar.
 
+Вариан использования 1:
 ```c++
 // список элементов меню
 QStringList items;
@@ -12,6 +13,7 @@ menuToolButton->setIcon(QIcon("PLUS.png"));
 toolBar->addWidget(menuToolButton);
 ```
 
+Вариант использования 2:
 ```c++
 // список элементов меню
 QStringList items;
